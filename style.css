@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+}
+
+header{
+    background-color: bisque;
+}
+
+body > header{
+    /*mengubah warna background*/
+    background-color: aqua;
+}
+
+header > p{
+    /*warna tulisan*/
+    color: black;
+    /*supaya tulisan ke tengah*/
+    text-align: center;
+}
+
+nav{
+    background-color: burlywood;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style: none;
+}
+
+li a {
+    color: black;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+
+#content {
+    flex: 3;
+    box-shadow: 5px 15px 15px 9px rgba(19, 0, 0);
+    border-radius: 12px;
+}
+
+aside{
+    flex: 1;
+    box-shadow: 5px 15px 15px 9px rgba(0,0,0,0.20);
+    border-radius: 12px;
+}
+
+aside header h2 {
+    color: rgb(2, 72, 75);
+    text-align: center;
+}
+
+#sejarah {
+    padding: 15px;
+}
+#content {
+    padding: 15px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+#geografis {
+    padding: 15px;
+}
+#wisata {
+    padding: 15px;
+}
